@@ -11,6 +11,7 @@
             this.To = To + " " + ID;
             this.CC = CC + " " + ID;
         } 
+
         public int ID { get; set; }
         public string Title { get; set; }
         public string Body { get; set; }
